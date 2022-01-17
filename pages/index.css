@@ -16,3 +16,7 @@
 @import url(../blocks/introduction/__quote/introduction__quote.css);
 @import url(../blocks/introduction/__quote-author/introduction__quote-author.css);
 @import url(../blocks/introduction/__content/introduction__content.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
