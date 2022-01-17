@@ -1,5 +1,5 @@
 .header {
-    width: calc(100vw - 2*148px);
     padding: 0 148px;
+    width: calc(100% - 2*148px);
     text-align: center;
 }
