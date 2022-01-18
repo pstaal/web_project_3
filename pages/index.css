@@ -27,3 +27,6 @@
 @import url(../blocks/articles/__author/articles__author.css);
 @import url(../blocks/articles/__author-function/articles__author-function.css);
 @import url(../blocks/articles/__author-name/articles__author-name.css);
+@import url(../blocks/articles/__image/articles__image.css);
+@import url(../blocks/articles/__content-item/articles__content-item.css);
+@import url(../blocks/button/button.css);
