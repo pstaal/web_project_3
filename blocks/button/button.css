@@ -1,11 +1,14 @@
 .button {
-    padding: 13px 20px;
+    display: block;
+    text-decoration: none;
     background-color: #0278FE;
-    border: none;
+    padding: 13px 20px;
+    box-sizing: border-box;
     color: #fff;
     border-radius: 4px;
     width: 248px;
     height: 48px;
     font-size: 18px;
+    font-weight: 600;
     line-height: 1.2;
 }

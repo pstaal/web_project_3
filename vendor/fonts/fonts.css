@@ -16,3 +16,11 @@
          url("../../pages/Inter/Inter-Black.woff") format("woff");
   }
   
+  @font-face {
+    font-family: 'Inter';
+    font-style:  medium;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../../pages/Inter/Inter-Medium.woff2") format("woff2"),
+         url("../../pages/Inter/Inter-Medium.woff") format("woff");
+  }

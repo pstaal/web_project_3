@@ -29,4 +29,5 @@
 @import url(../blocks/articles/__author-name/articles__author-name.css);
 @import url(../blocks/articles/__image/articles__image.css);
 @import url(../blocks/articles/__content-item/articles__content-item.css);
+@import url(../blocks/articles/__content/articles__content.css);
 @import url(../blocks/button/button.css);
