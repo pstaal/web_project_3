@@ -1,6 +1,8 @@
 .button {
     padding: 13px 20px;
     background-color: #0278FE;
+    border: none;
+    color: #fff;
     border-radius: 4px;
     width: 248px;
     height: 48px;

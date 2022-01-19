@@ -1,5 +1,6 @@
 .articles {
     padding: 0 148px;
     width: calc(100% - 2*148px);
+    max-width: 960px;
     margin-top: 92px;
 }
