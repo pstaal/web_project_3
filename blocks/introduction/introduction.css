@@ -2,3 +2,17 @@
     padding: 0 148px;
     width: calc(100% - 2*148px);
 }
+
+@media screen and (max-width:768px) {
+    .introduction {
+        padding: 0 24px;
+        width: calc(100% - 2*24px);
+    }
+}
+
+@media screen and (max-width:320px) {
+    .introduction {
+        padding: 0 16px;
+        width: calc(100% - 2*16px);
+    }
+}
