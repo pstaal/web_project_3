@@ -2,3 +2,9 @@
     width: 248px;
     height: 48px;
 }
+
+@media screen and (max-width:550px) {
+    .articles__button {
+        margin: 30px 16px 0 16px;
+    }
+}
