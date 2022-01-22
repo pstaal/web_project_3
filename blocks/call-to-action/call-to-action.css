@@ -2,11 +2,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 90px 48px 0 48px;
+    margin: 92px 48px 0 48px;
     width: calc(100% - 2*48px);
-    min-height: 742px;
+    height: 742px;
     background-image: url(../../images/Footer_meadow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-};
+}
+
+@media screen and (max-width:768px) {
+    .call-to-action {
+        margin: 92px 0 0 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .call-to-action {
+        height: 254px;
+}
