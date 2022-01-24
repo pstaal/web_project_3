@@ -11,6 +11,11 @@
     background-position: center;
 }
 
+.call-to-action:hover {
+    background-color: #2a2c2f;
+    opacity: 0.3;
+}
+
 @media screen and (max-width:768px) {
     .call-to-action {
         margin: 92px 0 0 0;
@@ -22,3 +27,5 @@
     .call-to-action {
         height: 254px;
 }
+}
+
