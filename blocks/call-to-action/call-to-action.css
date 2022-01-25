@@ -2,8 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 92px 48px 0 48px;
-    width: calc(100% - 2*48px);
+    margin: 92px auto 0 auto;
+    padding: 0 48px;
+    width: 984px;
     min-height: 742px;
     background-image: url(../../images/Footer_meadow.jpg);
     background-repeat: no-repeat;

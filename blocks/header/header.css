@@ -1,10 +1,11 @@
 .header {
     padding: 0 148px;
-    width: calc(100% - 2*148px);
+    margin: 0 auto;
+    width: 984px;
     text-align: center;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1100px) {
     .header {
         width: 100%;
         padding: 0;
