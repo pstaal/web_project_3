@@ -8,3 +8,9 @@
         margin: 30px 16px 0 16px;
     }
 }
+
+@media screen and (max-width:320px) {
+    .articles__button {
+        width: 288px;
+    }
+}

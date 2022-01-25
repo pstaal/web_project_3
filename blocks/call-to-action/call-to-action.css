@@ -4,16 +4,33 @@
     justify-content: center;
     margin: 92px 48px 0 48px;
     width: calc(100% - 2*48px);
-    height: 742px;
+    min-height: 742px;
     background-image: url(../../images/Footer_meadow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
-.call-to-action:hover {
+.call-to-action::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-color: #2a2c2f;
     opacity: 0.3;
+    z-index: 1;
+}
+
+.call-to-action > * {
+    z-index: 100;
+}
+
+
+.call-to-action:hover::before {
+    opacity: 0.8;
 }
 
 @media screen and (max-width:768px) {
@@ -25,7 +42,8 @@
 
 @media screen and (max-width:320px) {
     .call-to-action {
-        height: 254px;
+        min-height: 254px;
+        margin-top: 64px;
 }
 }
 

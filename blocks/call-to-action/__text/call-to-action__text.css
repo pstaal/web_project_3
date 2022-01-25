@@ -1,10 +1,13 @@
-.call-to-action__text {
-    margin: 0;
+.call-to-action__text:first-of-type {
     margin-top: 27px;
+}
+
+.call-to-action__text {
+    margin: 0 auto 0 auto;
     font-size: 18px;
     line-height: 1.2;
     font-weight: 400;
-    white-space: pre;
+    max-width: 280px;
 }
 
 @media screen and (max-width:320px) {
