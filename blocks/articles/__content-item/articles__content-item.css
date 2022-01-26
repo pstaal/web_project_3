@@ -1,8 +1,15 @@
 .articles__content-item {
     grid-row-start: 2;
-    grid-row-end: 5;
+    grid-row-end: 4;
     grid-column-start: 2;
     grid-column-end: 2;
+}
+
+@media screen and (max-width:1150px) {
+    .articles__content-item {
+        grid-row-start: 2;
+        grid-row-end: 5;
+    }
 }
 
 @media screen and (max-width:550px) {
