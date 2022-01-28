@@ -1,4 +1,4 @@
-.header__subtitle {
+.banner__subtitle {
     font-size: 30px;
     font-weight: 400;
     line-height: 1.2;
@@ -7,14 +7,14 @@
 }
 
 @media screen and (max-width:768px) {
-    .header__subtitle {
+    .banner__subtitle {
         margin: 32px 24px 0 0;
     }
 
 }
 
 @media screen and (max-width:550px) {
-    .header__subtitle {
+    .banner__subtitle {
         margin: 16px 16px 0 0;
         font-size: 16px;
         line-height: 1.25;

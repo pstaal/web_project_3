@@ -1,17 +1,17 @@
-.header__image {
+.banner__image {
     margin-top: 64px;
     width: 100%;
     object-fit: cover;
 }
 
 @media screen and (max-width:768px) {
-    .header__image {
+    .banner__image {
         margin-top: 36px;
     }
 }
 
 @media screen and (max-width:320px) {
-    .header__image {
+    .banner__image {
         margin-top: 40px;
     }
 }

@@ -1,0 +1,13 @@
+.banner {
+    padding: 0 148px;
+    margin: 0 auto;
+    max-width: 984px;
+    text-align: center;
+}
+
+@media screen and (max-width:1100px) {
+    .banner {
+        max-width: 100%;
+        padding: 0;
+    }
+}
