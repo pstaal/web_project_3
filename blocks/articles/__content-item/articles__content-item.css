@@ -7,7 +7,6 @@
 
 @media screen and (max-width:1150px) {
     .articles__content-item {
-        grid-row-start: 2;
         grid-row-end: 5;
     }
 }
