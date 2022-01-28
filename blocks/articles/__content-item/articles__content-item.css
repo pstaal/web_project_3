@@ -1,17 +1,11 @@
 .articles__content-item {
     grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-end: 5;
     grid-column-start: 2;
     grid-column-end: 2;
 }
 
-@media screen and (max-width:1150px) {
-    .articles__content-item {
-        grid-row-end: 5;
-    }
-}
-
-@media screen and (max-width:550px) {
+@media screen and (max-width:650px) {
     .articles__content-item {
         margin: 30px 16px 0 16px;
     }

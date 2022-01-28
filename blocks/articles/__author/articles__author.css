@@ -4,7 +4,7 @@
     align-self: end;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:650px) {
     .articles__author {
         margin: 30px 16px 0 16px;
     }

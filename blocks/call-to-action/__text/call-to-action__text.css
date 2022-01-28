@@ -1,5 +1,5 @@
 .call-to-action__text:first-of-type {
-    margin-top: 27px;
+    margin-top: 32px;
 }
 
 .call-to-action__text {
@@ -14,6 +14,10 @@
     .call-to-action__text {
         font-size: 14px;
         line-height: 1.1;
-        margin-top: 16px;
 }
+
+.call-to-action__text:first-of-type {
+    margin-top: 16px;
+}
+
 }

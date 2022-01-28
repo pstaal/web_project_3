@@ -4,7 +4,7 @@
     margin: 92px auto 0 auto;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1100px) {
     .articles {
         padding: 0 24px;
         max-width: calc(100% - 2*24px);
@@ -12,7 +12,7 @@
     }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:650px) {
     .articles {
         padding: 0;
         max-width: 100%;

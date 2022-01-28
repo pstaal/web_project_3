@@ -1,9 +1,10 @@
 .articles__button {
     width: 248px;
     height: 48px;
+    text-align: center;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:650px) {
     .articles__button {
         margin: 30px 16px 0 16px;
     }
