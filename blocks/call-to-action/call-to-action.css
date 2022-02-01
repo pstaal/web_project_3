@@ -12,6 +12,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    z-index: 1;
 }
 
 .call-to-action::before {
@@ -23,7 +24,7 @@
     height: 100%;
     background-color: #2a2c2f;
     opacity: 0.3;
-    z-index: 1;
+    z-index: -1;
 }
 
 .call-to-action:hover::before {
