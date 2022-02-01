@@ -6,15 +6,14 @@
 
 @media screen and (max-width:1100px) {
     .articles {
-        padding: 0 24px;
+        padding: 0;
         max-width: calc(100% - 2*24px);
-        margin: 88px 0 0 0;
+        margin: 88px auto 0 auto;
     }
 }
 
 @media screen and (max-width:650px) {
     .articles {
-        padding: 0;
         max-width: 100%;
         margin-top: 54px;
     }
