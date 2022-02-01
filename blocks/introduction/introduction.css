@@ -1,6 +1,5 @@
 .introduction {
     box-sizing: border-box;
-    padding: 0 148px;
     margin: 0 auto;
     max-width: 984px;
 }
@@ -9,13 +8,13 @@
     .introduction {
         margin: 0;
         padding: 0 24px;
-        max-width: calc(100% - 2*24px);
+        max-width: 720px;
     }
 }
 
 @media screen and (max-width:320px) {
     .introduction {
         padding: 0 16px;
-        max-width: calc(100% - 2*16px);
+        max-width: 288px;
     }
 }

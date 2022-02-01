@@ -1,5 +1,4 @@
 .gallery {
-    box-sizing: border-box;
     display: grid;
     padding: 0 48px;
     margin: 118px auto 0 auto;
@@ -10,7 +9,8 @@
 
 @media screen and (max-width:1250px) {
     .gallery {
-        margin: 90px 24px 0 24px;    
+        margin: 90px 0 0 0;    
+        padding: 0 24px;
     }
 }
 
@@ -23,7 +23,8 @@
 
 @media screen and (max-width:320px) {
     .gallery {
-        margin: 90px 16px 0 16px;
+        margin: 90px 0 0 0;
+        padding: 0 16px;
         gap: 12px;
     }
 }
